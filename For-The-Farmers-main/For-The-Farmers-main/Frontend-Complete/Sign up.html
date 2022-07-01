@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title> For the farmers-Log in page </title>
+    <style>
+        body {
+            color: black;
+            background-image: url(img2/hut.jpg);
+            font-family: poppins;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        img {
+            height: 1000px;
+            padding-right: -20px;
+        }
+
+        .content {
+            background-color: rgba(255, 255, 255, 0.5);
+            margin: 8%;
+            padding: 150px;
+            padding: 1rem 1rem 1rem 1rem;
+            box-shadow: 0px 0px 5px 5px rgba(91, 100, 117, 0.1);
+        }
+
+        a {
+            color: #24262c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-weight: 700;
+            text-decoration: none;
+            color: #24262c;
+            font-size: 18px;
+            transform: rotateY(-10);
+            transition: 0.2s;
+        }
+
+        .foot #bottom {
+            background-color: rgba(91, 100, 117, 0.5);
+            padding: 12px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!-- navbar mavbar-default make the default navbar section of the site  -->
+        <div class="container">
+            <!-- container class makes padding and border area of the site broader  -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Collapseit"
+                aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <!--the span make the bars in the icon of the site it is basically done by HTML-->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-header ">
+                <!-- navbar-header makes space for brands and header section of the site  -->
+                <a href="1homepage.html" class="navbar-brand"> <i class="fas fa-seedling"></i> For the farmers
+                </a>
+                <!-- navbar-brand treats the word in the tag as the main brand name of the site  -->
+            </div>
+            <div class="collapse navbar-collapse" id="Collapseit">
+                <!-- collapse navbar-collapse makes the navbar to collapse on the page -->
+                <ul class="nav navbar-nav">
+                    <!-- nav navbar-nav is the right names in the navbar area  -->
+                    <li> <a href="1homepage.html"> Home </a></li>
+                    <li><a href="Buyer.html"> Buyer <i class="fas fa-shopping-cart"></i> </a></li>
+                    <li><a href="Seller.html"> Seller <i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href="MSP.html"> <i class="fas fa-chart-bar"></i> MSP rates </a></li>
+                    <li><a href="Contact.html"> Query </a></li>
+                    <li><a href="about us .html"> Reach us </a></li>
+                </ul>
+                <ul class="  nav navbar-nav navbar-right ">
+                    <!-- nav navbar-nav navbar-right make the right navbar stuff  -->
+                    <li> <a href="signin.html"> Log in <i class="fas fa-user"></i> </a></li>
+                    <li class="active"> <a href="Sign up.html"> Sign Up <i class="fas fa-user-plus"></i> </a></li>
+            </div>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row content ">
+            <div class="col-md-6 mb-3">
+                <div>
+                    <img src="img2/hmm.png" class="image-fluid" alt="image">
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+
+                <h1 class="signup-text mb-3"> Register <i class="fas fa-user-plus "></i></h1>
+                <p>Required fields are followed by *</p>
+                <form method="post ">
+                    <!-- general information -->
+                    <h4>General Information</h4>
+
+                    <!-- First name  -->
+                    <div class="form-group">
+                        <span><i class="fas fa-user"></i></span>
+                        <label for="firstname ">First Name* </label>
+                        <input type="text" class="form-control" id="firstname" placeholder="firstname" required>
+                    </div>
+
+                    <!-- Last Name -->
+                    <div class="form-group">
+                        <label for="lastname ">Last Name* </label>
+                        <input type="text" class="form-control" id="lastname" placeholder="lastname" required>
+                    </div>
+
+                    <!-- Adhar number  -->
+                    <div class="form-group">
+                        <label for="Adhar-number ">Adhar-number* </label>
+                        <input type="number" class="form-control" id="Adhar-number" placeholder="Adhar number" required>
+                    </div>
+
+                    <!-- Email  -->
+                    <div class="form-group">
+                        <span><i class="fas fa-envelope"></i></span>
+                        <label for="Email">Email address</label>
+                        <input type="email" class="form-control" id="Email" placeholder="Email address">
+                    </div>
+
+                    <!-- Phone number -->
+                    <div class="form-group">
+                        <span><i class="fas fa-phone-alt"></i></span>
+                        <label for="Phone-number ">Phone-number* </label>
+                        <input type="number" class="form-control" id="Phone-number" placeholder="Phone number" required>
+                    </div>
+
+                    <!-- Address  -->
+                    <div class="form-group">
+                        <span> <i class="fas fa-map-marked-alt"></i> </span>
+                        <label for="address "> Address * </label>
+                        <textarea name="address" id="address" cols="60" rows="4" required> </textarea>
+                    </div>
+
+                    <!-- state  -->
+                    <div class="form-group">
+                        <label for="State">State* </label>
+                        <select name="State" required>
+                            <option value="Select state ">----Select state----</option>
+                            <option value="Andhra Pradesh "> Andhra Pradesh </option>
+                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                            <option value="Assam">Assam</option>
+                            <option value="Bihar">Bihar</option>
+                            <option value="Chattisgarh">Chattisgarh</option>
+                            <option value="Delhi"> Delhi</option>
+                            <option value="Goa">Goa</option>
+                            <option value="Gujrat">Gujrat</option>
+                            <option value="Haryana">Haryana</option>
+                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                            <option value="Jammnu and Kashmir">Jammnu and Kashmir</option>
+                            <option value="Jharkhand">Jharkhand</option>
+                            <option value="Karnataka">Karnataka</option>
+                            <option value="Kerela">Kerela</option>
+                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                            <option value="Maharastra">Maharastra</option>
+                            <option value="Manipur ">Manipur </option>
+                            <option value="Meghalaya">Meghalaya</option>
+                            <option value="Mizoram">Mizoram</option>
+                            <option value="Nagaland ">Nagaland </option>
+                            <option value="Odisha">Odisha</option>
+                            <option value="Punjab">Punjab</option>
+                            <option value="Rajasthan">Rajasthan</option>
+                            <option value="Sikkim">Sikkim</option>
+                            <option value="Tamil Nadu">Tamil Nadu</option>
+                            <option value="Telangana">Telangana</option>
+                            <option value="Tripura">Tripura</option>
+                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                            <option value="Uttarakhand">Uttarakhand</option>
+                            <option value="West Bengal">West Bengal</option>
+                            <option value="Andaman and Nicolbar islands ">Andaman and Nicolbar islands </option>
+                            <option value="Chandigarh ">Chandigarh </option>
+                            <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman
+                                and Diu</option>
+                            <option value="Ladakh">Ladakh</option>
+                            <option value="Lakshwadweep">Lakshwadweep</option>
+                            <option value="Puducherry">Puducherry</option>
+                        </select>
+                    </div>
+
+                    <!-- District -->
+                    <div class="form-group">
+                        <label for="District ">District* </label>
+                        <input type="text" class="form-control" id="District" placeholder="District" required>
+                    </div>
+
+                    <!-- Pincode -->
+                    <div class="form-group">
+                        <span><i class="fas fa-thumbtack"></i></span>
+                        <label for="Pincode ">Pincode </label>
+                        <input type="number" class="form-control" id="Pincode" placeholder="Pincode">
+                    </div>
+
+                    <!-- Agreement -->
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="check" required>
+                        <label class="form-check-label" for="terms">I hereby decalare that I've read all the terms and
+                            conditions and agree to it</label>
+                    </div>
+
+                    <!-- Submit button  -->
+                    <input type="submit" class="btn btn-success"></input>
+                    <input type="reset" class="btn btn-warning"></input>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer class="foot">
+        <div class="bottom" id="bottom">
+            &nbsp;&nbsp;&nbsp;
+            <a href="privacy policy.html" style="color: black;"> Privacy Policy </a> &nbsp;&nbsp;&nbsp;
+            <a href="Contact.html" style="color: black;"> Contact us</a> &nbsp;&nbsp;&nbsp;
+            <a href="about us .html" style="color: black;"> About Us </a> &nbsp;&nbsp;&nbsp;
+        </div>
+
+        <div class="into text-center" style=" background-color: #24262c;
+        padding: 20px; color: white;">
+            Made with <i class="far fa-heart"></i> at MNNIT Allahabad
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

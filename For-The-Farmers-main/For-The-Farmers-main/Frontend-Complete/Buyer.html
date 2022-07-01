@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products | forthefarmers</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: url(img2/buyerpage.png);
+            padding-top: 70px;
+            font-family: poppins;
+            background-size: 70%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .foot #bottom {
+            background-color: rgba(91, 100, 117, 0.5);
+            padding: 12px;
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        a {
+            font-weight: 600;
+            color: #24262c;
+            text-decoration: none;
+        }
+
+        a:hover {
+            font-weight: 700;
+            text-decoration: none;
+            color: #24262c;
+            font-size: 18px;
+            transform: translateY(10);
+            transition: 0.2s;
+        }
+    </style>
+    <title> For the farmers-Home page </title>
+    <style>
+        nav ul {
+            display: inline-block;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #555;
+        }
+
+        p {
+            color: #555;
+        }
+
+        .container {
+            max-width: 1300px;
+
+            padding-left: 25px;
+            padding-right: 25px;
+
+        }
+
+        .row {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .col3 {
+            flex-basis: 30%;
+            min-width: 250px;
+            margin-bottom: 30px;
+        }
+
+        .col3 img {
+            width: 75%;
+        }
+
+        .smallcontainer {
+            max-width: 1080px;
+            margin: auto;
+            padding-left: 25px;
+            padding-right: 25px;
+        }
+
+        .col4 {
+            flex-basis: 25%;
+            padding: 10px;
+            min-width: 200px;
+            margin-bottom: 50px;
+            transition: transform 0.5s;
+        }
+
+        .col4 img {
+            width: 100%;
+        }
+
+        .title {
+            text-align: center;
+            margin: 0 auto 80px;
+            position: relative;
+            line-height: 60px;
+            color: #555;
+        }
+
+        .title::after {
+            content: '';
+
+            width: 80px;
+            height: 5px;
+            border-radius: 5px;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        h4 {
+            color: #555;
+            font-weight: bold;
+        }
+
+        .col4 p {
+            font-size: 14px;
+        }
+
+        .col4:hover {
+            transform: translateY(-5px);
+
+        }
+
+        /* --------------------- */
+        .row2 {
+            justify-content: space-between;
+            margin: 100px auto 50px;
+        }
+
+        select {
+
+            padding: 5px;
+            border-radius: 30px;
+        }
+
+        select:focus {
+            outline: none;
+        }
+
+        .searchbar {
+            text-align: center;
+            margin: 5px;
+            padding: 3px;
+        }
+    </style>
+
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <!-- navbar mavbar-default make the default navbar section of the site  -->
+        <div class="container">
+            <!-- container class makes padding and border area of the site broader  -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#Collapseit"
+                aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <!--the span make the bars in the icon of the site it is basically done by HTML-->
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-header ">
+                <!-- navbar-header makes space for brands and header section of the site  -->
+                <a href="1homepage.html" class="navbar-brand"> <i class="fas fa-seedling"></i> For the farmers
+                </a>
+                <!-- navbar-brand treats the word in the tag as the main brand name of the site  -->
+            </div>
+            <div class="collapse navbar-collapse" id="Collapseit">
+                <!-- collapse navbar-collapse makes the navbar to collapse on the page -->
+                <ul class="nav navbar-nav">
+                    <!-- nav navbar-nav is the right names in the navbar area  -->
+                    <li> <a href="1homepage.html"> Home </a></li>
+                    <li class="active"><a href="Buyer.html"> Buyer <i class="fas fa-shopping-cart"></i> </a></li>
+                    <li><a href="Seller.html"> Seller <i class="fas fa-cart-plus"></i></a></li>
+                    <li><a href="MSP.html"> <i class="fas fa-chart-bar"></i> MSP rates </a></li>
+                    <li><a href="Contact.html"> Query </a></li>
+                    <li><a href="about us .html"> Reach us </a></li>
+                </ul>
+                <ul class="  nav navbar-nav navbar-right ">
+                    <!-- nav navbar-nav navbar-right make the right navbar stuff  -->
+                    <li> <a href="signin.html"> Log in <i class="fas fa-user"></i> </a></li>
+                    <li> <a href="Sign up.html"> Sign Up <i class="fas fa-user-plus"></i> </a></li>
+            </div>
+            </ul>
+        </div>
+    </nav>
+    <!-- ---------featured categories------- -->
+    <!-- <div class="categories">
+        <div class="smallcontainer">
+            <div class="row">
+                <div class="col3"><img src="img/img1.jpg" alt="img1"></div>
+                <div class="col3"><img src="img/img1.jpg" alt="img2"></div>
+                <div class="col3"><img src="img/img1.jpg" alt="img3"></div>
+            </div>
+
+        </div>
+        
+    </div> -->
+    <!-- ---------featured products------- -->
+
+    <div class="smallcontainer">
+        <h1>Get the best at the most fair prices</h1>
+        <!-- <h2 class="title">Featured Products</h2> -->
+        <div class="row row2">
+            <h2>All Products</h2>
+            <form class="searchbar">
+                <input class="form-control mr-sm-2" type="search" placeholder="  Search your product "
+                    aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <select>
+                <option>Default Sorting</option>
+                <option>Sort by Price</option>
+                <option>Sort by Popularity</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <div class="col4">
+                <img src="img/wheat-style.jpeg" alt="" />
+                <h4>Wheat</h4>
+                <h5>Rajkot</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.1925 per quintal</p>
+            </div>
+            <div class="col4">
+                <img src="img/rice2.jpg" alt="" />
+                <h4>Rice</h4>
+                <h5>Indore</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.1868 per quintal</p>
+            </div>
+            <div class="col4">
+                <img src="img/Jowar-grains.jpg" alt="" />
+                <h4>Jowar</h4>
+                <h5>Ahmedabad</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.2620 per quintal</p>
+            </div>
+            <div class="col4">
+                <img src="img/bajra-grains-millet-organic-500x500.jpg" alt="" />
+                <h4>Bajra</h4>
+                <h5>Jaipur</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.2150 per quintal</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col4">
+                <img src="img/maize1.png" alt="" />
+                <h4>Maize</h4>
+                <h5>Surat</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.1850 per quintal</p>
+            </div>
+            <div class="col4">
+                <img src="img/moong 2.jpg" alt="" />
+                <h4>Moong</h4>
+                <h5>Aurangabad</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.7196 per quintal</p>
+            </div>
+            <div class="col4">
+                <img src="img/mong-1.jpg" alt="" />
+                <h4>Urad</h4>
+                <h5>Amritsar</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.6000 per quintal</p>
+            </div>
+            <div class="col4">
+                <img src="img/soya-bean-pulse-500x500.jpg" alt="" />
+                <h4>Soyabean</h4>
+                <h5>Pune</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.3880 per quintal</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col4">
+                <img src="img/barley-500x500.jpg" alt="" />
+                <h4>Barley</h4>
+                <h5>Noida, Gautam Buddha Nagar</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.1525 per quintal</p>
+            </div>
+            <div class="col4">
+                <img src="img/chana.jpg" alt="" />
+                <h4>Gram</h4>
+                <h5>Gopalganj</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.4875 per quintal</p>
+            </div>
+            <div class="col4">
+                <img src="img/brown-lentils-masoor-dal-500x500.jpg" alt="" />
+                <h4>Masoor</h4>
+                <h5>Muzzafarpur</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.4800 per quintal</p>
+            </div>
+            <div class="col4">
+                <img src="img/black-mustard-seed-500x500.jpg" alt="" />
+                <h4>Mustard</h4>
+                <h5>Kishanganj</h5>
+                <a href="Login2.html"> <i class="fas fa-phone-alt"></i> Contact Number</a>
+                <p>Rs.2000 per quintal</p>
+            </div>
+        </div>
+        <!-- <div class="row">
+        <div class="col4">
+          <img src="img/img1.jpg" alt="" />
+          <h4>Wheat</h4>
+          <p>Rs.2000 per quintal</p>
+        </div>
+        <div class="col4">
+          <img src="img/img1.jpg" alt="" />
+          <h4>Rice</h4>
+          <p>Rs.2100 per quintal</p>
+        </div>
+        <div class="col4">
+          <img src="img/img1.jpg" alt="" />
+          <h4>Masoor</h4>
+          <p>Rs.4000 per quintal</p>
+        </div>
+        <div class="col4">
+          <img src="img/img1.jpg" alt="" />
+          <h4>Mustard</h4>
+          <p>Rs.7000 per quintal</p>
+        </div>
+      </div> -->
+    </div>
+
+    <footer class="foot">
+        <div class="bottom" id="bottom">
+            &nbsp;&nbsp;&nbsp;
+            <a href="privacy policy.html" style="color: black;"> Privacy Policy </a> &nbsp;&nbsp;&nbsp;
+            <a href="Contact.html" style="color: black;"> Contact us</a> &nbsp;&nbsp;&nbsp;
+            <a href="about us .html" style="color: black;"> About Us </a> &nbsp;&nbsp;&nbsp;
+        </div>
+
+        <div class="into text-center" style=" background-color: #24262c;
+        padding: 20px; color: white;">
+            Made with <i class="far fa-heart"></i> at MNNIT Allahabad
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
